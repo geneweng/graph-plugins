@@ -3,8 +3,8 @@
   "name": "graph-plugins",
   "description": "Graph database plugins for Claude Code, including tools for converting code analysis output into queryable graph databases",
   "owner": {
-    "name": "geneweng",
-    "email": "geneweng@gmail.com"
+    "name": "xyz",
+    "email": "xyz@mail.com"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "description": "Convert graphify graph.json (NetworkX node-link format) into a typed KuzuDB graph database with classified node types and semantic relationship tables, queryable with Cypher",
       "source": "./plugins/graphify-to-kuzu",
       "category": "Development",
-      "homepage": "https://github.com/geneweng/graph-plugins"
+      "homepage": "https://github.com/xyz/graph-plugins"
     }
   ]
 }

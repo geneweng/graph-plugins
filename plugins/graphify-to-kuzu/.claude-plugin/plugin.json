@@ -3,7 +3,7 @@
   "description": "Convert graphify graph.json (NetworkX node-link format) into a typed KuzuDB graph database with classified node types (File, Class, Function, Method, Document, Rationale) and semantic relationship tables (CONTAINS, CALLS, INHERITS, IMPORTS, HAS_METHOD, USES, RATIONALE_FOR, REFERENCES, SIMILAR_TO), queryable with Cypher.",
   "version": "1.0.0",
   "author": {
-    "name": "geneweng",
-    "email": "geneweng@gmail.com"
+    "name": "xyz",
+    "email": "xyz@mail.com"
   }
 }
