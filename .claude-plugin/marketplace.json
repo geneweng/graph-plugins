@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "graph-plugins",
+  "description": "Graph database plugins for Claude Code, including tools for converting code analysis output into queryable graph databases",
+  "owner": {
+    "name": "geneweng",
+    "email": "geneweng@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "graphify-to-kuzu",
+      "description": "Convert graphify graph.json (NetworkX node-link format) into a typed KuzuDB graph database with classified node types and semantic relationship tables, queryable with Cypher",
+      "source": "./plugins/graphify-to-kuzu",
+      "category": "Development",
+      "homepage": "https://github.com/geneweng/graph-plugins"
+    }
+  ]
+}
